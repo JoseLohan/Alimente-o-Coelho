@@ -73,12 +73,12 @@ function setup(){
 
   button2 = createImg("./images/cut_btn.png");
   button2.size(50,50);
-  button2.position(330,35);
+  button2.position(canw-20,35);
   button2.mouseClicked(drop2);
 
   button3 = createImg("./images/cut_btn.png");
   button3.size(50,50);
-  button3.position(360,200);
+  button3.position(canw-10,200);
   button3.mouseClicked(drop3);
 
   btnMute = createImg("./images/mute.png");
@@ -93,8 +93,8 @@ function setup(){
 
   ground = new Ground(200,canh,600,20);
   rope = new Rope(6,{x:40,y:30});
-  rope2 = new Rope(7,{x:370,y:40});
-  rope3 = new Rope(6,{x:400,y:225});
+  rope2 = new Rope(7,{x:canw-20,y:40});
+  rope3 = new Rope(6,{x:canw-10,y:225});
   fruit = Bodies.circle(300,300,15);
   bunny = createSprite(250,canh-80,100,100)
 
