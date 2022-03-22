@@ -73,12 +73,12 @@ function setup(){
 
   button2 = createImg("./images/cut_btn.png");
   button2.size(50,50);
-  button2.position(canw-20,35);
+  button2.position(280,35);
   button2.mouseClicked(drop2);
 
   button3 = createImg("./images/cut_btn.png");
   button3.size(50,50);
-  button3.position(canw-10,200);
+  button3.position(300,200);
   button3.mouseClicked(drop3);
 
   btnMute = createImg("./images/mute.png");
